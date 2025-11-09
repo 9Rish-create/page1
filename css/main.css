@@ -56,25 +56,24 @@ a {
     text-decoration-line: none;
 }
 .main-section {
-    width: 960px; /* 150 + 540 + 270 */
+    width: 960px; 
     margin: 0 auto;
-    font-size: 0; /* убираем пробелы между inline-block */
+    font-size: 0; 
     background-color: white;
     border: 1px solid #1d4088;
     border-left: hidden;
     border-top: hidden;
   }
   
-  /* Все три блока стоят в ряд */
   nav, .main-div, .aside {
     display: inline-block;
     vertical-align: top;
-    font-size: 16px; /* возвращаем нормальный текст */
+    font-size: 16px; 
     box-sizing: border-box;
     height: 100%;
   }
   
-  /* Блок 1 — навигация */
+ 
   nav {
     width: 150px;
     height: 1600px;
@@ -87,7 +86,7 @@ a {
   .all-main {
     padding: 0;
   }
-  /* Блок 2 — основной контент */
+  
   .main-div {
     width: 540px;
     padding: 15px;
@@ -104,18 +103,18 @@ a {
     margin: 1rem;
   }
   
-  /* Блок 3 — боковая колонка */
+
   aside {
     width: auto;
     padding: 10px;
     padding-top: 80px;
     background-color:#fff;
     margin: 10px, 0,0,0;
-    /* margin-right: 0; */
+
     
   }
   
-  /* Немного стиля для наглядности */
+
   aside h3 {
 
     margin-top: 0;
@@ -168,7 +167,7 @@ a {
   .logo-title h3 {
     display: inline-block;
     vertical-align: middle;
-    font-size: 16px; /* возвращаем нормальный текст */
+    font-size: 16px; 
     margin: 0;
     font-weight: normal;
   }
@@ -192,7 +191,7 @@ a {
   .gallery__img-title {
     padding: 0;
     padding-top: 0;
-    font-size: 16px; /* возвращаем нормальный текст */
+    font-size: 16px; 
     margin: 0;
     font-weight: normal;
     float: none;
